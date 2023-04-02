@@ -77,4 +77,4 @@ productsRouter.get("/search/:keyword", async (req, res) => {
   }
 });
 
-module.exports = productsRouter;
+module.exports = { productsRouter };
